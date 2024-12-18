@@ -1,4 +1,19 @@
 -- Databricks notebook source
+
+/*
+This file contains the finalized version of the linkage code that has been employed in a scheduled pipeline. 
+This code takes patient data from an EHR table and state death data files and links these records. 
+Positive matches are written to an output table.
+
+Authors:
+Peter J. Leese and John P. Powers
+
+Copyright and licensing:
+© 2024, The University of North Carolina at Chapel Hill. Permission is granted to use in accordance with the MIT license. 
+
+The code is licensed under the open-source MIT license.
+*/
+
 -- MAGIC %md
 -- MAGIC ## Data Loading
 
