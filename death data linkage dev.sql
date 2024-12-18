@@ -1,4 +1,19 @@
 -- Databricks notebook source
+
+/*
+This file contains some additional code used in the development of the code in death_data_linkage_prod.sql, 
+including extracting some data for training (which was then manually labeled), 
+training the ML model used in the prod code, and evaluating model performance on the training data using cross-validation.
+
+Authors:
+Peter J. Leese and John P. Powers
+
+Copyright and licensing:
+© 2024, The University of North Carolina at Chapel Hill. Permission is granted to use in accordance with the MIT license. 
+
+The code is licensed under the open-source MIT license.
+*/
+
 -- MAGIC %md
 -- MAGIC ## Data Loading
 
