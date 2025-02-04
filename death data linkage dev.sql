@@ -249,7 +249,7 @@ LIMIT 200
 
 -- MAGIC %python 
 -- MAGIC
--- MAGIC pipeline.fit(features, target)
+-- MAGIC pipeline.fit(features, target, histgradientboostingclassifier__sample_weight=sample_weights)
 -- MAGIC joblib.dump(pipeline, '[path].joblib')
 
 -- COMMAND ----------
